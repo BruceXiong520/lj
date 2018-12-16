@@ -1,0 +1,267 @@
+*{ margin:0;padding:0}
+.container{
+	width:100%;
+	margin:0 auto;
+}
+.container>nav{
+	margin:40px auto;
+	width:1150px;;
+	display:flex;
+	justify-content:space-around;
+	text-align:center;
+}
+.container>nav a{
+	text-decoration:none;
+	display:block;
+	width:304px;
+	
+}
+.container>nav img{
+	width:76px;
+}
+.container>nav>a>h3{
+	font-weight:lighter;
+		color:#333;
+		padding:10px 0px 5px;
+}
+.container>nav>a>p{
+	width:183px;
+	margin:0 auto;
+	font-size:12px;
+	color:#bbb;
+}
+.container .hand{
+	width:100%;height:524px;
+	background:url(../img/index/bg-app.jpg) center center no-repeat;
+	position:relative;
+	
+}
+.container .hand>div:first-child{
+	width:268px;height:118px;
+	margin-right:50px;
+	background:url(../img/index/spriteV2_new.png) no-repeat -450px -380px;
+	position:absolute;
+	left:100px;top:80px;
+}
+.container .hand>p:nth-child(2){
+	width:476px;
+	font-size:14px;
+	position:absolute;
+	left:100px;top:230px;
+}
+.container .hand>div:last-child{
+	width:250px;height:110px;
+	position:absolute;
+	left:100px;bottom:100px;
+	background:url(../img/index/spriteV2_new.png) no-repeat -315px -135px;
+}
+.ershoufang{
+	width:1150px;
+	margin:50px auto;
+
+}
+.ershoufang>div{
+	width:248px;height:30px;
+	background:url(../img/index/spriteV2_new.png) no-repeat -20px -94px;
+}
+.ershoufang>p{
+	margin:10px 0;
+	font-size:14px;
+	color:#888;
+}
+.ershoufang>p>a{
+	color:#888;
+	float:right;
+	text-decoration:none;
+}
+.ershoufang>ul{
+	width:100%;
+	margin-top:40px;
+	display:flex;
+	justify-content:space-between;
+	list-style:none;
+}
+.ershoufang>ul>li{
+	position:relative;
+	text-align:center;
+}
+.ershoufang>ul li a{
+	text-decoration:none;
+}
+.ershoufang>ul li a div{
+	border:1px solid #ddd;
+	padding-bottom:10px;
+}
+.ershoufang>ul li a div img{
+	width:250px;
+}
+.ershoufang>ul li a div >p:nth-child(2){
+	width:65px;height:30px;
+	background:#394043;color:#fff;
+	line-height:30px;
+	text-align:center;
+	font-size:20px;
+	position:absolute;
+	left:0;
+	bottom:110px;
+}
+.ershoufang>ul li a div>p:nth-child(3){
+	color:#394043;margin-top:7px;
+}
+.ershoufang>ul li a div>p:nth-child(4){
+	color:#bbb;font-size:12px;
+	margin-top:15px;margin-left:-60px;
+
+}
+.ershoufang>ul li a>p{
+	text-align:left;color:#bbb;
+	font-size:12px;margin-top:10px;
+}
+.xiaoqu{
+	width:100%;
+	background:#eeeef1;
+}
+.xiaoqu>div{
+	width:1150px;
+	height:500px;
+	margin:0 auto;
+}
+.xiaoqu>div>div{
+	width:187px;height:28px;
+	margin-top:50px;
+	background:url(../img/index/xiaoqu-recom.png) no-repeat 0 0;
+}
+.xiaoqu>div>p{
+	font-size:14px;color:#bbb;
+	margin-top:10px;
+}
+.xiaoqu>div>p a{
+	float:right;
+	text-decoration:none;
+	color:#000;
+}
+.xiaoqu>div>ul{
+	list-style:none;
+	display:flex;
+	justify-content:space-between;
+	margin-top:40px;
+
+}
+.xiaoqu>div>ul>li{
+	border:1px solid #cfcfd2;
+}
+
+.xiaoqu>div>ul>li>a{
+	text-decoration:none;
+	color:#394043;font-weight:bold;
+}
+.xiaoqu>div>ul>li>a img{
+	width:350px;height:200px;
+	transition:1s;
+}
+.xiaoqu>div>ul>li>a img:hover{
+	transform:scale(1.05)
+}
+.xiaoqu>div>ul>li>a p{
+	margin:10px 0 10px 10px;
+	font-size:18px;
+}
+.xiaoqu>div>ul>li>a p:last-child{
+	font-size:14px;
+	margin-bottom:20px;
+}
+.xiaoqu>div>ul>li>a span{
+	float:right;
+	margin-right:10px;
+	color:#394043;
+}
+.xinfang{
+	width:1150px;
+	margin:0 auto 60px;
+}
+.xinfang>div{
+	width:158px;height:30px;
+	margin-top:50px;
+	background:url(../img/index/spriteV2_new.png) no-repeat -20px -55px;
+}
+.xinfang>p{
+	font-size:14px;
+	color:#394043;
+	margin:10px 0;
+}
+.xinfang>p>a{
+	float:right;
+	text-decoration:none;
+	color:#000;
+
+}
+.xinfang>ul{
+	list-style:none;
+	display:flex;
+	justify-content:space-between;
+	margin-top:40px;
+	
+}
+.xinfang>ul>li{
+	position:relative;
+}
+.xinfang>ul a{
+	text-decoration:none;
+
+}
+.xinfang>ul a img{
+	width:350px;height:260px;
+
+}
+.xinfang>ul a div{
+	position:absolute;
+	left:125px;
+	top:100px;
+}
+.xinfang>ul a div p{
+	color:#fff;font-size:20px;
+	font-weight:bold;
+}
+.zhenfangyuan{
+	width:100%;
+	background:url(../img/index/truth-bgV2.jpg) no-repeat 0 0;
+}
+.zhenfangyuan>div{
+	height:240px;
+	width:1150px;margin:0 auto;
+	position:relative;
+}
+.zhenfangyuan>div>div:first-child{
+	width:501px;height:115px;
+	position:absolute;
+	left:0px;top:10px;
+	margin-top:50px;
+	background:url(../img/index/spriteV2_new.png) no-repeat -20px -250px;
+	
+}
+.zhenfangyuan>div>div:last-child{
+	position:absolute;
+	right:0px;
+	top:70px;
+}
+.zhenfangyuan>div>div:last-child p{
+	font-size:16px;margin-bottom:10px;
+	color:#333346;
+}
+.zhenfangyuan>div>div:last-child div{
+	width:555px;height:43px;
+	background:#fff;
+
+}
+.zhenfangyuan>div>div:last-child div input{
+	width:495px;height:28px;
+	border:none;outline:none;
+	line-height:43px;
+	padding:8px 0 0 10px;
+}
+.zhenfangyuan>div>div:last-child div span{
+	float:right;
+	width:20px;height:20px;
+	margin:12px 10px 0 0;
+	background:url(../img/index/spriteV2_new.png) no-repeat -408px -20px;
+}

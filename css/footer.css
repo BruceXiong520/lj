@@ -1,0 +1,87 @@
+*{
+	margin:0;padding:0;
+}
+#footer{
+	width:100%;
+	height:426px;
+	background:url(../img/index/footer-bg.jpg);
+}
+.container{
+	width:1150px;
+	height:311px;
+	margin:0 auto;
+}
+a{
+	text-decoration:none;
+	font-size:12px;
+	color:#888c8e;
+}
+ul{
+	list-style:none;
+	display:flex;
+	justify-content:flex-start;
+}
+.container .f-top{
+	width:100%;
+	height:76px;
+	border-bottom:1px solid #393939;
+	display:flex;
+	justify-content:space-between;
+} 
+.f-top li a{
+	font-size:14px;color:#fff;
+	line-height:76px;
+	margin-right:15px;
+	
+}
+.f-top p{
+	line-height:76px;
+	color:#7dcfa0;
+	font-size:14px;
+}
+.f-middle{
+	width:1150px;
+	height:116px;
+	padding:10px 0 35px 0;
+	border-bottom:1px solid #393939;
+}
+.f-middle ul{
+	width:1000px;
+	display:flex;
+	justify-content:flex-start;
+}
+.f-middle ul li{
+		margin:0px 10px 10px 0;
+		
+}
+.f-middle ul li a{
+	background:#121212;
+	line-height:31px;
+	padding:7px 15px;
+}
+
+.f-middle ul li a.active{
+	color:#fff;
+	background:#394043;
+}
+.f-middle div{
+	width:1000px;
+	display:flex;
+	justify-content:flex-start;
+	flex-wrap:wrap;
+}
+.f-middle div>a{
+	padding:10px 10px 0 0;
+}
+.f-bottom{
+	width:1150px;
+	font-size:12px;
+	padding-top:25px;
+	color:#888c8e;
+}
+.f-bottom img{
+	vertical-align:middle;
+	margin-right:5px;
+	margin-top:5px;
+}
+
